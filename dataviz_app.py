@@ -17,7 +17,7 @@ server = app.server
 from plotly.subplots import make_subplots
 from datetime import date
 
-df = pd.read_csv("../../Desktop/App_V4/data_moods.csv")
+df = pd.read_csv("data_moods.csv")
 
 
 ###Layout###
